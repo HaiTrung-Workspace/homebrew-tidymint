@@ -3,8 +3,12 @@
 [Tidymint](https://tidymint.app) is a free, open-source (MIT) Mac cleaner. Everything goes to the Trash first, with Undo.
 
 ```sh
+brew tap HaiTrung-Workspace/tidymint
+brew trust --tap HaiTrung-Workspace/tidymint
 brew install --cask HaiTrung-Workspace/tidymint/tidymint
 ```
+
+`brew trust` is required by recent Homebrew versions before loading casks from a third-party tap. Older versions do not have this command; skip that line.
 
 The cask downloads `Tidymint.zip` straight from the [GitHub releases](https://github.com/HaiTrung-Workspace/tidymint/releases) and checks it against the SHA-256 published there.
 
