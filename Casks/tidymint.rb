@@ -4,7 +4,7 @@ cask "tidymint" do
 
   url "https://github.com/HaiTrung-Workspace/tidymint/releases/download/v#{version}/Tidymint.zip"
   name "Tidymint"
-  desc "Free, open-source Mac cleaner that moves files to the Trash, with Undo"
+  desc "Free, open-source disk cleaner that moves files to the Trash, with Undo"
   homepage "https://tidymint.app/"
 
   livecheck do
@@ -12,7 +12,7 @@ cask "tidymint" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Tidymint.app"
 
