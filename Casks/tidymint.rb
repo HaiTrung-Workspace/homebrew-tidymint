@@ -1,6 +1,6 @@
 cask "tidymint" do
-  version "0.3.7"
-  sha256 "9594ed59660ef8fa52a8478686e8be5db9b9447c0516d60480743219574505c1"
+  version "0.3.8"
+  sha256 "e30c576247dd010c0dd865b220b8c8923d83da784cd4bde258a5860ec3733d42"
 
   url "https://github.com/HaiTrung-Workspace/tidymint/releases/download/v#{version}/Tidymint.zip"
   name "Tidymint"
