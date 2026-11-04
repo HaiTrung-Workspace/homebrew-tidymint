@@ -18,6 +18,8 @@ cask "tidymint" do
 
   zap trash: [
     "~/Library/Application Support/Tidymint",
+    "~/Library/Caches/com.haitrung.diskcleanup",
+    "~/Library/HTTPStorages/com.haitrung.diskcleanup",
     "~/Library/Preferences/com.haitrung.diskcleanup.plist",
   ]
 
