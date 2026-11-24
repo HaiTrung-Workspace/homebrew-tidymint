@@ -4,7 +4,7 @@ cask "tidymint" do
 
   url "https://github.com/HaiTrung-Workspace/tidymint/releases/download/v#{version}/Tidymint.zip"
   name "Tidymint"
-  desc "Free, open-source disk cleaner that moves files to the Trash, with Undo"
+  desc "Disk cleaner, menu bar manager, window snapping, file shelf and clipboard"
   homepage "https://tidymint.app/"
 
   livecheck do
