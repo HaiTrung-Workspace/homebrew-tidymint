@@ -1,6 +1,6 @@
 cask "tidymint" do
-  version "0.6.0"
-  sha256 "4d6c2d89e9a29c19e392888e59d4311849458af02103ed39fdb8acd654b4f29a"
+  version "1.0.0"
+  sha256 "bdb905c0e96d703447f0bb2ace4dfe0a7854cc6e2b38f1a9e6072384f525fafd"
 
   url "https://github.com/HaiTrung-Workspace/tidymint/releases/download/v#{version}/Tidymint.zip"
   name "Tidymint"
@@ -22,10 +22,4 @@ cask "tidymint" do
     "~/Library/HTTPStorages/com.haitrung.diskcleanup",
     "~/Library/Preferences/com.haitrung.diskcleanup.plist",
   ]
-
-  caveats <<~EOS
-    Tidymint is not yet notarized by Apple. On first launch macOS will block it:
-    open System Settings > Privacy & Security and click "Open Anyway".
-    Step-by-step guide: https://tidymint.app/install/
-  EOS
 end
